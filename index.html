@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Studio - Diseño, desarrollo y experiencias digitales innovadoras">
+    <meta name="theme-color" content="#ffffff">
+    <title>Creative Studio - Diseño Digital Innovador</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%234F46E5' width='100' height='100' rx='20'/><circle cx='50' cy='50' r='30' fill='%23FFFFFF'/></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">CreativeStudio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#trabajo" class="nav-link">Trabajo</a></li>
+                <li><a href="#stats" class="nav-link">Logros</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">🚀 Diseño Digital Moderno</div>
+            <h1 class="hero-title">
+                Crea Experiencias<br><span class="gradient-text">Digitales Extraordinarias</span>
+            </h1>
+            <p class="hero-subtitle">Transformamos ideas en productos digitales que cautivan, inspiran y generan resultados excepcionales para tu negocio</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="smoothScroll('#contacto')">Comenzar Proyecto</button>
+                <button class="btn btn-secondary" onclick="smoothScroll('#trabajo')">Ver Portafolio</button>
+            </div>
+            <div class="hero-features">
+                <div class="feature-item">
+                    <span class="feature-icon">⚡</span>
+                    <span>Diseño Rápido</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🎯</span>
+                    <span>Resultados Reales</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🏆</span>
+                    <span>Calidad Premium</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="phone-mockup">
+                <div class="phone-screen"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="section-header">
+            <span class="section-badge">SOLUCIONES</span>
+            <h2 class="section-title">Servicios Diseñados para Ti</h2>
+            <p class="section-subtitle">Todo lo que necesitas para llevar tu negocio al siguiente nivel</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Diseño UI/UX</h3>
+                <p>Interfaces modernas y experiencias de usuario intuitivas que cautivan a tu audiencia</p>
+                <div class="card-hover-effect"></div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Desarrollo Web</h3>
+                <p>Sitios web rápidos, responsivos y optimizados con las últimas tecnologías</p>
+                <div class="card-hover-effect"></div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎮</div>
+                <h3>Aplicaciones Web</h3>
+                <p>Soluciones interactivas y dinámicas que transforman tu negocio</p>
+                <div class="card-hover-effect"></div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Experiencias Móviles</h3>
+                <p>Apps progresivas y responsive que funcionan perfectamente en cualquier dispositivo</p>
+                <div class="card-hover-effect"></div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🚀</div>
+                <h3>Optimización</h3>
+                <p>Mejoramos velocidad, SEO y rendimiento para máximos resultados</p>
+                <div class="card-hover-effect"></div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Soporte Técnico</h3>
+                <p>Mantenimiento continuo y asistencia técnica profesional 24/7</p>
+                <div class="card-hover-effect"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trabajo -->
+    <section id="trabajo" class="trabajo">
+        <div class="section-header">
+            <span class="section-badge">PORTAFOLIO</span>
+            <h2 class="section-title">Proyectos Innovadores</h2>
+            <p class="section-subtitle">Cada proyecto es una historia de creatividad, tecnología y excelencia</p>
+        </div>
+        
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="design">Diseño</button>
+            <button class="filter-btn" data-filter="development">Desarrollo</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="portfolio-project" data-category="design">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎨</div>
+                        <div class="project-meta">
+                            <span class="project-year">2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Plataforma E-Commerce</h3>
+                        <p class="project-description">Tienda online moderna con carrito dinámico, pagos seguros y experiencia de usuario fluida</p>
+                        
+                        <div class="project-stats">
+                            <div class="stat-mini">
+                                <span class="stat-icon">⚡</span>
+                                <span>+95% Performance</span>
+                            </div>
+                            <div class="stat-mini">
+                                <span class="stat-icon">👥</span>
+                                <span>500K+ Usuarios</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <button class="btn-small">Ver Proyecto</button>
+                        <a href="#" class="project-link">→</a>
+                    </div>
+
+                    <div class="project-gradient-bg"></div>
+                </div>
+            </div>
+
+            <div class="portfolio-project" data-category="development">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">⚡</div>
+                        <div class="project-meta">
+                            <span class="project-year">2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Dashboard Analítico</h3>
+                        <p class="project-description">Visualización de datos en tiempo real con gráficos interactivos y reportes automáticos</p>
+                        
+                        <div class="project-stats">
+                            <div class="stat-mini">
+                                <span class="stat-icon">📊</span>
+                                <span>+100 Métricas</span>
+                            </div>
+                            <div class="stat-mini">
+                                <span class="stat-icon">⚙️</span>
+                                <span>Real-time Sync</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">WebSocket</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <button class="btn-small">Ver Proyecto</button>
+                        <a href="#" class="project-link">→</a>
+                    </div>
+
+                    <div class="project-gradient-bg"></div>
+                </div>
+            </div>
+
+            <div class="portfolio-project" data-category="mobile">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📱</div>
+                        <div class="project-meta">
+                            <span class="project-year">2023</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Aplicación Social</h3>
+                        <p class="project-description">Red social con chat integrado, notificaciones en tiempo real y sincronización multiplataforma</p>
+                        
+                        <div class="project-stats">
+                            <div class="stat-mini">
+                                <span class="stat-icon">💬</span>
+                                <span>Instant Chat</span>
+                            </div>
+                            <div class="stat-mini">
+                                <span class="stat-icon">🌍</span>
+                                <span>25+ Países</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">iOS/Android</span>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <button class="btn-small">Ver Proyecto</button>
+                        <a href="#" class="project-link">→</a>
+                    </div>
+
+                    <div class="project-gradient-bg"></div>
+                </div>
+            </div>
+
+            <div class="portfolio-project" data-category="design">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">✨</div>
+                        <div class="project-meta">
+                            <span class="project-year">2023</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Gestor de Proyectos</h3>
+                        <p class="project-description">Herramienta colaborativa de productividad con tareas, sprints y seguimiento integrado</p>
+                        
+                        <div class="project-stats">
+                            <div class="stat-mini">
+                                <span class="stat-icon">👥</span>
+                                <span>Team Collab</span>
+                            </div>
+                            <div class="stat-mini">
+                                <span class="stat-icon">📈</span>
+                                <span>Agile Ready</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Prisma</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <button class="btn-small">Ver Proyecto</button>
+                        <a href="#" class="project-link">→</a>
+                    </div>
+
+                    <div class="project-gradient-bg"></div>
+                </div>
+            </div>
+
+            <div class="portfolio-project" data-category="development">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📝</div>
+                        <div class="project-meta">
+                            <span class="project-year">2023</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Blog Interactivo</h3>
+                        <p class="project-description">Plataforma de contenido con SEO optimizado, comentarios y recomendaciones personalizadas</p>
+                        
+                        <div class="project-stats">
+                            <div class="stat-mini">
+                                <span class="stat-icon">📚</span>
+                                <span>1000+ Posts</span>
+                            </div>
+                            <div class="stat-mini">
+                                <span class="stat-icon">🔍</span>
+                                <span>SEO Optimizado</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Gatsby</span>
+                            <span class="tech-tag">GraphQL</span>
+                            <span class="tech-tag">Contentful</span>
+                            <span class="tech-tag">Algolia</span>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <button class="btn-small">Ver Proyecto</button>
+                        <a href="#" class="project-link">→</a>
+                    </div>
+
+                    <div class="project-gradient-bg"></div>
+                </div>
+            </div>
+
+            <div class="portfolio-project" data-category="mobile">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎬</div>
+                        <div class="project-meta">
+                            <span class="project-year">2022</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Plataforma Streaming</h3>
+                        <p class="project-description">Servicio de streaming de video con recomendaciones IA y contenido personalizado</p>
+                        
+                        <div class="project-stats">
+                            <div class="stat-mini">
+                                <span class="stat-icon">🎥</span>
+                                <span>4K Quality</span>
+                            </div>
+                            <div class="stat-mini">
+                                <span class="stat-icon">🤖</span>
+                                <span>AI Recommendations</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">FFmpeg</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">ML.js</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <button class="btn-small">Ver Proyecto</button>
+                        <a href="#" class="project-link">→</a>
+                    </div>
+
+                    <div class="project-gradient-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats" class="stats">
+        <div class="section-header">
+            <h2 class="section-title">Por Números</h2>
+        </div>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">🎨</div>
+                <div class="stat-number" data-count="150">0</div>
+                <div class="stat-label">Proyectos Completados</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">😊</div>
+                <div class="stat-number" data-count="500">0</div>
+                <div class="stat-label">Clientes Satisfechos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">👥</div>
+                <div class="stat-number" data-count="50">0</div>
+                <div class="stat-label">Profesionales</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⭐</div>
+                <div class="stat-number" data-count="8">0</div>
+                <div class="stat-label">Años Experiencia</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="section-header">
+            <span class="section-badge">CONTÁCTANOS</span>
+            <h2 class="section-title">Hablemos de tu Proyecto</h2>
+            <p class="section-subtitle">Responde en menos de 24 horas</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <span class="info-icon">📧</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hola@creativestudio.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📱</span>
+                    <div>
+                        <h4>Teléfono</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div>
+                        <h4>Ubicación</h4>
+                        <p>Ciudad Digital, Internet</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Email" required>
+                <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Creative Studio. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

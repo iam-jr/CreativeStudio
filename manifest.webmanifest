@@ -1,0 +1,34 @@
+{
+  "name": "Creative Studio - Diseño Digital Innovador",
+  "short_name": "CreativeStudio",
+  "description": "Diseño, desarrollo y experiencias digitales innovadoras",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%239c27b0' width='192' height='192'/><circle cx='96' cy='96' r='60' fill='%2300e5ff'/><path fill='%23ffffff' d='M96 60 L130 130 L62 130 Z'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%239c27b0' width='512' height='512'/><circle cx='256' cy='256' r='160' fill='%2300e5ff'/><path fill='%23ffffff' d='M256 160 L346 346 L166 346 Z'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230f0f1e' width='540' height='720'/><rect fill='%239c27b0' width='540' height='200'/><text x='270' y='100' text-anchor='middle' fill='white' font-size='48' font-weight='bold'>Creative Studio</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ]
+}
