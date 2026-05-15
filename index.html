@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="Creative Studio - Diseño, desarrollo y experiencias digitales innovadoras">
     <meta name="theme-color" content="#ffffff">
     <title>Creative Studio - Diseño Digital Innovador</title>
@@ -16,7 +16,7 @@
         <div class="nav-container">
             <div class="logo">
                 <span class="logo-icon">✨</span>
-                <span class="logo-text">CreativeStudio</span>
+                <span class="logo-text">Creative Studio</span>
             </div>
             <ul class="nav-menu">
                 <li><a href="#inicio" class="nav-link">Inicio</a></li>
@@ -62,7 +62,25 @@
         </div>
         <div class="hero-visual">
             <div class="phone-mockup">
-                <div class="phone-screen"></div>
+                <div class="phone-screen">
+                    <div class="mini-site">
+                        <div class="mini-topbar">
+                            <span class="mini-brand">Shop</span>
+                            <span class="mini-menu">≡</span>
+                        </div>
+                        <div class="mini-hero">
+                            <p class="mini-label">PROMOCION LIMITADA</p>
+                            <h4>Hasta 40% OFF</h4>
+                            <p>Solo hoy en sneakers y accesorios premium.</p>
+                        </div>
+                        <div class="mini-product"></div>
+                        <div class="mini-price-row">
+                            <span class="mini-old-price">$129</span>
+                            <span class="mini-new-price">$77</span>
+                        </div>
+                        <button class="mini-cta">Comprar Ahora</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -414,20 +432,13 @@
             <h2 class="section-title">Hablemos de tu Proyecto</h2>
             <p class="section-subtitle">Responde en menos de 24 horas</p>
         </div>
-        <div class="contact-container">
+        <div class="contact-container contact-info-only">
             <div class="contact-info">
-                <div class="info-item">
-                    <span class="info-icon">📧</span>
-                    <div>
-                        <h4>Email</h4>
-                        <p>hola@creativestudio.com</p>
-                    </div>
-                </div>
                 <div class="info-item">
                     <span class="info-icon">📱</span>
                     <div>
                         <h4>Teléfono</h4>
-                        <p>+1 (555) 123-4567</p>
+                        <p>Whatsapp</p>
                     </div>
                 </div>
                 <div class="info-item">
@@ -438,12 +449,6 @@
                     </div>
                 </div>
             </div>
-            <form class="contact-form" id="contactForm">
-                <input type="text" placeholder="Tu Nombre" required>
-                <input type="email" placeholder="Tu Email" required>
-                <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
-                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-            </form>
         </div>
     </section>
 
